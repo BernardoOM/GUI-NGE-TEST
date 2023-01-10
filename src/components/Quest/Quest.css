@@ -1,0 +1,21 @@
+.quest {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.quest.active {
+    background-color: rgb(224, 146, 0);
+}
+
+.text-quest {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(127, 127, 127);
+}
+
+.text-quest.active {
+    color: rgba(16, 14, 12, 1);
+}

@@ -1,0 +1,104 @@
+.skill-content {
+    width: 33.33%;
+    padding: 0.75em;
+}
+
+.level-skill,
+.level-points-skill,
+.next-level-points-skill,
+.skill-points {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-skill {
+    margin-top: 0.2em;
+    padding: 1em 1.5em;
+    background-color: rgba(16, 14, 12, 0.5);
+    cursor: pointer;
+}
+
+.text-title-skill,
+.text-level-skill {
+    color: rgb(127, 127, 127);
+}
+
+.text-title-skill.active,
+.text-level-skill.active {
+    color: rgb(224, 146, 0);
+}
+
+.text-level-skill {
+    font-size: 2em;
+}
+
+.image-skill {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 1em;
+    padding: 0.5em 2em;
+    background-color: rgba(16, 14, 12, 0.5);
+}
+
+.image-container {
+    width: 100%;
+    margin: 1em 0;
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+.level-skill {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: rgba(16, 14, 12, 0.5);
+}
+
+.level-points-skill {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    background-color: rgba(16, 14, 12, 0.5);
+}
+
+.next-level-points-skill {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    background-color: rgba(16, 14, 12, 0.5);
+}
+
+.bar-points-skill {
+    width: 100%;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    background-color: rgba(16, 14, 12, 0.5);
+}
+
+.bar-points-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 11px;
+    border: 1px solid white;
+}
+
+.bar-points-container > img {
+    width: 100%;
+}
+
+.skill-points {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    background-color: rgba(16, 14, 12, 0.5);
+}
+
+.text-next-level-points > h3,
+.text-number-next-level-points > h3 {
+    color: rgb(127, 127, 127);
+}

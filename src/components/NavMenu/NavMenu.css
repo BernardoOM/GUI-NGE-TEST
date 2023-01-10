@@ -1,0 +1,29 @@
+.nav-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.75em;
+}
+
+.nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(16, 14, 12, 0.5);
+}
+
+.nav-item {
+    width: 125px;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(127, 127, 127);
+    user-select: none;
+}
+
+.nav-item.active {
+    color: rgb(224, 146, 0);
+    border-top: 3px solid rgb(224, 146, 0);
+    border-bottom: 3px solid rgb(224, 146, 0);
+}
